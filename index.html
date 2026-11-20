@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="fr-CA">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Point d’information sur les solutions alternatives à la prothèse auditive (mise à jour)</title>
+<meta name="description" content="Avis aux membres de l’Ordre des audioprothésistes du Québec, mise à jour du 20 novembre 2026.">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Ordre des audioprothésistes du Québec">
+<meta property="og:title" content="Point d’information sur les solutions alternatives à la prothèse auditive (mise à jour)">
+<meta property="og:description" content="Avis aux membres de l’Ordre des audioprothésistes du Québec, mise à jour du 20 novembre 2026.">
+<meta property="og:image" content="https://ordre-des-audioprothesistes-du-quebec.github.io/oaq-information-solutions-alternatives-2026-11-20/apercu.png">
+<meta property="og:image:secure_url" content="https://ordre-des-audioprothesistes-du-quebec.github.io/oaq-information-solutions-alternatives-2026-11-20/apercu.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Sigle de l’Ordre des audioprothésistes du Québec">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://ordre-des-audioprothesistes-du-quebec.github.io/oaq-information-solutions-alternatives-2026-11-20/apercu.png">
+<link rel="icon" type="image/png" href="icone.png">
+<style>
+@font-face { font-family: "Figtree"; src: url("polices/Figtree-Bold.ttf"); font-weight: 700; }
+@font-face { font-family: "Figtree"; src: url("polices/Figtree-SemiBold.ttf"); font-weight: 600; }
+@font-face { font-family: "Open Sans"; src: url("polices/OpenSans-Regular.ttf"); font-weight: 400; }
+@font-face { font-family: "Open Sans"; src: url("polices/OpenSans-SemiBold.ttf"); font-weight: 600; }
+@font-face { font-family: "Open Sans"; src: url("polices/OpenSans-Bold.ttf"); font-weight: 700; }
+@font-face { font-family: "Open Sans"; src: url("polices/OpenSans-Italic.ttf"); font-style: italic; }
+
+/* Nuancier de l'Ordre (Guide de normes graphiques, février 2026) : huit couleurs, rien d'autre. */
+:root {
+  --nuit: #003D4C; --petrole: #00627A; --aqua: #00AEEF; --glace: #CBEEFD;
+  --ocre: #EAA04C; --miel: #FCC86B; --gris: #E9E9E9; --blanc: #FFFFFF;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: "Open Sans", Verdana, sans-serif; color: var(--nuit); background: var(--blanc); }
+a { color: inherit; text-decoration: underline; text-decoration-thickness: 0.5pt; text-underline-offset: 1.5pt; }
+.etiquette { font-family: "Figtree", Verdana, sans-serif; font-weight: 700; letter-spacing: 1.4pt; text-transform: uppercase; }
+.lecteur { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+.outils { text-align: center; font-size: 13px; }
+.outils a { color: var(--petrole); font-weight: 600; }
+
+/* ================= PAGES LETTRE : écran large et impression (positions du PDF) ================= */
+.feuille { position: relative; width: 612pt; height: 792pt; overflow: hidden; background: var(--blanc);
+           font-kerning: none; font-variant-ligatures: none; }
+.feuille .b { position: absolute; white-space: pre; display: block; }
+.feuille .rond { border-radius: 50%; }
+@media screen and (min-width: 861px) {
+  .mobile { display: none; }
+  body { background: var(--gris); padding: 32px 0 48px; }
+  .feuille { margin: 0 auto 24px; box-shadow: 0 2px 14px rgba(0, 61, 76, 0.18); }
+  .outils { margin-top: 4px; }
+}
+@page { size: 8.5in 11in; margin: 0; }
+@media print {
+  .mobile, .outils { display: none; }
+  html, body { background: var(--blanc); }
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .feuille { break-after: page; }
+  .feuille:last-of-type { break-after: auto; }
+}
+
+/* ================= TÉLÉPHONE : une colonne fluide ================= */
+@media screen and (max-width: 860px) {
+  .feuilles { display: none; }
+  body { font-size: 16px; line-height: 1.5; }
+  .bandeau { position: relative; overflow: hidden; background: var(--nuit); color: var(--blanc); padding: 20px 20px 24px; }
+  .bandeau .arcs { position: absolute; right: 0; bottom: 0; width: 100%; height: 176px; pointer-events: none; }
+  .bandeau > *:not(.arcs) { position: relative; }
+  .bandeau .logo { width: 224px; margin-left: -14px; display: block; }
+  .bandeau .mention { margin-top: 18px; font-size: 12px; color: var(--ocre); }
+  .bandeau .date { font-size: 14px; margin-top: 2px; }
+  .bandeau h1 { font: 700 26px/1.2 "Figtree", Verdana, sans-serif; margin-top: 14px; }
+  .filet { display: block; width: 120px; height: 4px; background: var(--aqua); }
+  .bandeau .filet { margin-top: 14px; }
+  .bandeau .public { margin-top: 12px; font-size: 14px; color: var(--aqua); }
+  main { padding: 0 20px; }
+  main > p, main > ul, main > dl, main > div { margin-top: 14px; }
+  .intro { margin-top: 22px !important; }
+  main ul { padding-left: 22px; }
+  main li::marker { color: var(--petrole); }
+  main li + li { margin-top: 4px; }
+  .definitions { margin-top: 22px; background: var(--nuit); color: var(--blanc); padding: 16px; }
+  .definitions h2 { font-size: 12px; color: var(--aqua); }
+  .definitions dt { margin-top: 12px; font: 600 17px/1.35 "Figtree", Verdana, sans-serif; color: var(--aqua); }
+  .titre-section { margin-top: 30px; font: 700 21px/1.25 "Figtree", Verdana, sans-serif; }
+  .titre-section .filet { margin-top: 8px; margin-bottom: 4px; }
+  .encadre { background: var(--glace); border-left: 4px solid var(--nuit); padding: 14px; font-weight: 600; }
+  .gris { background: var(--gris); padding: 4px 14px 14px; }
+  .gris dt { margin-top: 10px; font-weight: 700; color: var(--petrole); }
+  .point { display: flex; gap: 14px; align-items: flex-start; }
+  .point .num { flex: 0 0 30px; height: 30px; border-radius: 50%; background: var(--ocre); text-align: center;
+                font: 700 17px/30px "Figtree", Verdana, sans-serif; }
+  .devise { background: var(--ocre); padding: 14px; font-weight: 700; }
+  .qr { margin-top: 20px !important; }
+  .qr .num-q { font-size: 12px; color: var(--petrole); }
+  .qr h3 { margin-top: 2px; font: 600 17px/1.35 "Figtree", Verdana, sans-serif; }
+  .qr p + h3 + p, .qr h3 + p { margin-top: 4px; }
+  .pied { margin: 30px 20px 0; border-top: 1px solid var(--nuit); padding-top: 16px; }
+  .avertissement { font-style: italic; font-size: 14px; }
+  .renseignements { margin-top: 18px; }
+  .renseignements h2 { font-size: 12px; margin-bottom: 4px; }
+  .renseignements p { font-size: 15px; overflow-wrap: anywhere; }
+  .outils { padding: 28px 20px 36px; }
+}
+</style>
+</head>
+<body>
+<div class="feuilles">
+<section class="feuille" aria-label="Page 1">
+<div class="b" style="left:0.00pt;top:0.00pt;width:612.00pt;height:176.00pt;background:#003D4C"></div>
+<svg class="b" aria-hidden="true" style="left:0.00pt;top:0.00pt" width="612.00pt" height="176.00pt" viewBox="0 0 612.00 176.00"><g fill="none" stroke="#00627A" stroke-width="30"><circle cx="672.00" cy="226.00" r="90"/><circle cx="672.00" cy="226.00" r="150"/><circle cx="672.00" cy="226.00" r="210"/></g></svg>
+<img class="b" src="logo-oaq-blanc.png" alt="Ordre des audioprothésistes du Québec" style="left:35.00pt;top:10.00pt;width:150.00pt">
+<span class="b" style="left:460.05pt;top:27.45pt;font:normal 700 9pt/10.80pt 'Figtree';color:#EAA04C;letter-spacing:1.4pt">AVIS AUX MEMBRES</span>
+<span class="b" style="left:416.12pt;top:40.85pt;font:normal 700 9.5pt/12.94pt 'Open Sans';color:#FFFFFF">MISE À JOUR : 20 novembre 2026</span>
+<span class="b" style="left:427.63pt;top:54.91pt;font:normal 400 8.5pt/11.58pt 'Open Sans';color:#FFFFFF">Remplace la version d’octobre 2024</span>
+<span class="b" style="left:44.00pt;top:72.65pt;font:normal 700 23pt/27.60pt 'Figtree';color:#FFFFFF">Point d’information sur les solutions</span>
+<span class="b" style="left:44.00pt;top:99.65pt;font:normal 700 23pt/27.60pt 'Figtree';color:#FFFFFF">alternatives à la prothèse auditive</span>
+<div class="b" style="left:44.00pt;top:133.50pt;width:150.00pt;height:3.50pt;background:#00AEEF"></div>
+<span class="b" style="left:44.00pt;top:147.05pt;font:normal 700 11pt/13.20pt 'Figtree';color:#00AEEF;letter-spacing:1.4pt">AUX AUDIOPROTHÉSISTES</span>
+<span class="b" style="left:44.00pt;top:189.04pt;font:normal 400 10pt/13.62pt 'Open Sans';color:#003D4C">Dans un contexte de diversification des technologies, l’Ordre tient à rappeler certains aspects de la loi régissant</span>
+<span class="b" style="left:44.00pt;top:203.54pt;font:normal 400 10pt/13.62pt 'Open Sans';color:#003D4C">les audioprothésistes et des normes de pratique de l’audioprothèse au Québec. En lien avec sa mission de</span>
+<span class="b" style="left:44.00pt;top:218.04pt;font:normal 400 10pt/13.62pt 'Open Sans';color:#003D4C">protection du public, l’Ordre souhaite fournir des directives claires aux audioprothésistes concernant les</span>
+<span class="b" style="left:44.00pt;top:232.54pt;font:normal 400 10pt/13.62pt 'Open Sans';color:#003D4C">diverses solutions d’amplification auditive disponibles sur le marché. Ces dispositifs peuvent être</span>
+<span class="b" style="left:44.00pt;top:247.04pt;font:normal 400 10pt/13.62pt 'Open Sans';color:#003D4C">commercialisés au Canada et ailleurs dans le monde sous différents noms tels que :</span>
+<div class="b rond" style="left:52.80pt;top:270.90pt;width:4.40pt;height:4.40pt;background:#00627A"></div>
+<span class="b" style="left:64.00pt;top:265.41pt;font:normal 400 9.5pt/12.94pt 'Open Sans';color:#003D4C">prothèses auditives en vente libre (OTC), aux États-Unis;</span>
+<div class="b rond" style="left:52.80pt;top:287.50pt;width:4.40pt;height:4.40pt;background:#00627A"></div>
+<span class="b" style="left:64.00pt;top:282.01pt;font:normal 400 9.5pt/12.94pt 'Open Sans';color:#003D4C">produits d’amplification personnels (PSAP);</span>
+<div class="b rond" style="left:52.80pt;top:304.10pt;width:4.40pt;height:4.40pt;background:#00627A"></div>
+<span class="b" style="left:64.00pt;top:298.61pt;font:normal 400 9.5pt/12.94pt 'Open Sans';color:#003D4C">assistants d’écoute;</span>
+<div class="b rond" style="left:52.80pt;top:320.70pt;width:4.40pt;height:4.40pt;background:#00627A"></div>
+<span class="b" style="left:64.00pt;top:315.21pt;font:normal 400 9.5pt/12.94pt 'Open Sans';color:#003D4C">écouteurs intelligents;</span>
+<div class="b rond" style="left:52.80pt;top:337.30pt;width:4.40pt;height:4.40pt;background:#00627A"></div>
+<span class="b" style="left:64.00pt;top:331.81pt;font:normal 400 9.5pt/12.94pt 'Open Sans';color:#003D4C">etc.</span>
+<div class="b" style="left:44.00pt;top:361.50pt;width:524.00pt;height:165.80pt;background:#003D4C"></div>
+<svg class="b" aria-hidden="true" style="left:44.00pt;top:361.50pt" width="524.00pt" height="165.80pt" viewBox="0 0 524.00 165.80"><g fill="none" stroke="#00627A" stroke-width="16"><circle cx="554.00" cy="195.80" r="60"/><circle cx="554.00" cy="195.80" r="100"/></g></svg>
+<span class="b" style="left:58.00pt;top:372.43pt;font:normal 700 8.5pt/10.20pt 'Figtree';color:#00AEEF;letter-spacing:1.4pt">DE QUOI PARLE-T-ON?</span>
+<span class="b" style="left:58.00pt;top:391.56pt;font:normal 600 10pt/12.00pt 'Figtree';color:#00AEEF">Prothèse auditive</span>
+<span class="b" style="left:208.00pt;top:391.41pt;font:normal 400 9.5pt/12.94pt 'Open Sans';color:#FFFFFF">« Tout instrument ou dispositif électronique servant à suppléer aux défauts</span>
+<span class="b" style="left:208.00pt;top:405.01pt;font:normal 400 9.5pt/12.94pt 'Open Sans';color:#FFFFFF">de l’ouïe, ainsi que tout accessoire ou récepteur qui s’y rattache. » (</span>
+<a class="b" href="https://www.legisquebec.gouv.qc.ca/fr/document/lc/A-33" style="left:503.06pt;top:405.01pt;font:italic 400 9.5pt/12.94pt 'Open Sans';color:#FFFFFF">Loi sur les</a>
+<a class="b" href="https://www.legisquebec.gouv.qc.ca/fr/document/lc/A-33" style="left:208.00pt;top:418.61pt;font:italic 400 9.5pt/12.94pt 'Open Sans';color:#FFFFFF">audioprothésistes</a>
+<span class="b" style="left:282.55pt;top:418.61pt;font:normal 400 9.5pt/12.94pt 'Open Sans';color:#FFFFFF">)</span>
+<span class="b" style="left:58.00pt;top:440.36pt;font:normal 600 10pt/12.00pt 'Figtree';color:#00AEEF">Prothèse auditive en vente</span>
+<span class="b" style="left:58.00pt;top:453.96pt;font:normal 600 10pt/12.00pt 'Figtree';color:#00AEEF">libre (OTC)</span>
+<span class="b" style="left:208.00pt;top:440.21pt;font:normal 400 9.5pt/12.94pt 'Open Sans';color:#FFFFFF">Prothèse auditive offerte sans ordonnance aux États-Unis. Au Québec, elle</span>
+<span class="b" style="left:208.00pt;top:453.81pt;font:normal 400 9.5pt/12.94pt 'Open Sans';color:#FFFFFF">demeure une prothèse auditive au sens de la</span>
+<a class="b" href="https://www.legisquebec.gouv.qc.ca/fr/document/lc/A-33" style="left:410.19pt;top:453.81pt;font:italic 400 9.5pt/12.94pt 'Open Sans';color:#FFFFFF">Loi sur les audioprothésistes</a>
+<span class="b" style="left:529.00pt;top:453.81pt;font:normal 400 9.5pt/12.94pt 'Open Sans';color:#FFFFFF">.</span>
+<span class="b" style="left:58.00pt;top:475.56pt;font:normal 600 10pt/12.00pt 'Figtree';color:#00AEEF">Amplificateur personnel</span>
+<span class="b" style="left:58.00pt;top:489.16pt;font:normal 600 10pt/12.00pt 'Figtree';color:#00AEEF">(PSAP)</span>
+<span class="b" style="left:208.00pt;top:475.41pt;font:normal 400 9.5pt/12.94pt 'Open Sans';color:#FFFFFF">Dispositif destiné à une personne dont l’audition est normale, qui vise à</span>
+<span class="b" style="left:208.00pt;top:489.01pt;font:normal 400 9.5pt/12.94pt 'Open Sans';color:#FFFFFF">amplifier les sons dans certains environnements, notamment à des fins</span>
+<span class="b" style="left:208.00pt;top:502.61pt;font:normal 400 9.5pt/12.94pt 'Open Sans';color:#FFFFFF">récréatives. Il n’est pas destiné à compenser un trouble de l’audition.</span>
+
+<span class="b" style="left:44.00pt;top:545.00pt;font:normal 700 14pt/16.80pt 'Figtree';color:#003D4C">La correction auditive en présence de perte auditive (défaut de l’ouïe)</span>
+<div class="b" style="left:44.00pt;top:565.30pt;width:150.00pt;height:3.00pt;background:#00AEEF"></div>
+<span class="b" style="left:44.00pt;top:578.21pt;font:normal 400 9.5pt/12.94pt 'Open Sans';color:#003D4C">Lorsque l’audioprothésiste réalise un acte réservé, à savoir la vente, la pose, l’ajustement ou le remplacement d’une</span>
+<span class="b" style="left:44.00pt;top:591.81pt;font:normal 400 9.5pt/12.94pt 'Open Sans';color:#003D4C">prothèse auditive, il est assujetti aux règles et aux normes de pratique régissant l’exercice de sa profession. L’Ordre</span>
+<span class="b" style="left:44.00pt;top:605.41pt;font:normal 400 9.5pt/12.94pt 'Open Sans';color:#003D4C">rappelle que l’audioprothésiste ne peut poser les actes décrits précédemment que sur certificat d’un médecin, d’un</span>
+<span class="b" style="left:44.00pt;top:619.01pt;font:normal 400 9.5pt/12.94pt 'Open Sans';color:#003D4C">orthophoniste ou d’un audiologiste attestant la nécessité d’une prothèse auditive.</span>
+<span class="b" style="left:551.76pt;top:753.45pt;font:normal 400 8pt/10.89pt 'Open Sans';color:#003D4C">1 / 4</span>
+</section>
+<section class="feuille" aria-label="Page 2">
+<div class="b" style="left:0.00pt;top:0.00pt;width:612.00pt;height:34.00pt;background:#003D4C"></div>
+<span class="b" style="left:44.00pt;top:12.95pt;font:normal 600 9pt/10.80pt 'Figtree';color:#FFFFFF">Point d’information sur les solutions alternatives à la prothèse auditive</span>
+<span class="b" style="left:437.58pt;top:12.41pt;font:normal 400 8.5pt/11.58pt 'Open Sans';color:#FFFFFF">MISE À JOUR : 20 novembre 2026</span>
+
+<span class="b" style="left:44.00pt;top:57.70pt;font:normal 700 14pt/16.80pt 'Figtree';color:#003D4C">Les dispositifs d’écoute alternatifs avec fonction d’amplification sonore</span>
+<div class="b" style="left:44.00pt;top:78.00pt;width:150.00pt;height:3.00pt;background:#00AEEF"></div>
+<div class="b" style="left:44.00pt;top:91.00pt;width:524.00pt;height:75.40pt;background:#CBEEFD"></div>
+<div class="b" style="left:44.00pt;top:91.00pt;width:4.00pt;height:75.40pt;background:#003D4C"></div>
+<span class="b" style="left:60.00pt;top:100.91pt;font:normal 600 9.5pt/12.94pt 'Open Sans';color:#003D4C">Afin d’éviter toute ambiguïté aux yeux du public, l’Ordre encourage les audioprothésistes à respecter les</span>
+<span class="b" style="left:60.00pt;top:114.51pt;font:normal 600 9.5pt/12.94pt 'Open Sans';color:#003D4C">mêmes standards professionnels, peu importe le produit d’amplification auditive impliqué, même si ce</span>
+<span class="b" style="left:60.00pt;top:128.11pt;font:normal 600 9.5pt/12.94pt 'Open Sans';color:#003D4C">produit peut également être proposé en vente libre, ou par toute autre personne sans aucune</span>
+<span class="b" style="left:60.00pt;top:141.71pt;font:normal 600 9.5pt/12.94pt 'Open Sans';color:#003D4C">responsabilité professionnelle.</span>
+<span class="b" style="left:44.00pt;top:178.31pt;font:normal 400 9.5pt/12.94pt 'Open Sans';color:#003D4C">L’Ordre est conscient que certains produits en vente libre sont dotés de fonctions d’amplification sonore. Cette réalité</span>
+<span class="b" style="left:44.00pt;top:191.91pt;font:normal 400 9.5pt/12.94pt 'Open Sans';color:#003D4C">est prise en compte, et l’Ordre travaille activement en collaboration avec ses partenaires pour apporter des</span>
+<span class="b" style="left:44.00pt;top:205.51pt;font:normal 400 9.5pt/12.94pt 'Open Sans';color:#003D4C">éclaircissements, tant au niveau réglementaire qu’en termes d’information du public.</span>
+<span class="b" style="left:44.00pt;top:226.11pt;font:normal 400 9.5pt/12.94pt 'Open Sans';color:#003D4C">Il est essentiel de préciser que l’audioprothésiste ne peut jamais, même de façon occasionnelle, limiter sa</span>
+<span class="b" style="left:44.00pt;top:239.71pt;font:normal 400 9.5pt/12.94pt 'Open Sans';color:#003D4C">responsabilité, ou se dissocier de son rôle et des obligations inhérentes à son titre professionnel. Par conséquent,</span>
+<span class="b" style="left:44.00pt;top:253.31pt;font:normal 400 9.5pt/12.94pt 'Open Sans';color:#003D4C">avant d’offrir un service professionnel, l’audioprothésiste doit vérifier que le produit avec lequel il travaille lui permet</span>
+<span class="b" style="left:44.00pt;top:266.91pt;font:normal 400 9.5pt/12.94pt 'Open Sans';color:#003D4C">de répondre à ses obligations légales et, sauf exception, aux</span>
+<span class="b" style="left:312.01pt;top:266.91pt;font:italic 400 9.5pt/12.94pt 'Open Sans';color:#003D4C">Normes de pratique de l’audioprothèse au Québec</span>
+<span class="b" style="left:523.23pt;top:266.91pt;font:normal 400 9.5pt/12.94pt 'Open Sans';color:#003D4C">,</span>
+<span class="b" style="left:44.00pt;top:280.51pt;font:normal 400 9.5pt/12.94pt 'Open Sans';color:#003D4C">notamment en ce qui concerne les normes suivantes :</span>
+<div class="b" style="left:44.00pt;top:303.20pt;width:524.00pt;height:43.20pt;background:#E9E9E9"></div>
+<span class="b" style="left:56.00pt;top:315.11pt;font:normal 700 9.5pt/12.94pt 'Open Sans';color:#00627A">Norme 6.1</span>
+<span class="b" style="left:128.00pt;top:315.11pt;font:normal 400 9.5pt/12.94pt 'Open Sans';color:#003D4C">(…) l’audioprothésiste doit fonder sa pratique sur des protocoles de mesures reconnues et</span>
+<span class="b" style="left:128.00pt;top:328.71pt;font:normal 400 9.5pt/12.94pt 'Open Sans';color:#003D4C">s’assurer de la validité des résultats obtenus.</span>
+<div class="b" style="left:44.00pt;top:346.40pt;width:524.00pt;height:21.60pt;background:#E9E9E9"></div>
+<span class="b" style="left:56.00pt;top:350.31pt;font:normal 700 9.5pt/12.94pt 'Open Sans';color:#00627A">Norme 6.2</span>
+<span class="b" style="left:128.00pt;top:350.31pt;font:normal 400 9.5pt/12.94pt 'Open Sans';color:#003D4C">L’audioprothésiste doit s’assurer d’utiliser une évaluation valide pour l’appareillage.</span>
+<div class="b" style="left:44.00pt;top:368.00pt;width:524.00pt;height:67.40pt;background:#E9E9E9"></div>
+<span class="b" style="left:56.00pt;top:371.91pt;font:normal 700 9.5pt/12.94pt 'Open Sans';color:#00627A">Norme 12.1</span>
+<span class="b" style="left:128.00pt;top:371.91pt;font:normal 400 9.5pt/12.94pt 'Open Sans';color:#003D4C">L’audioprothésiste doit prendre les moyens nécessaires à sa disposition pour corriger</span>
+<span class="b" style="left:128.00pt;top:385.51pt;font:normal 400 9.5pt/12.94pt 'Open Sans';color:#003D4C">adéquatement une problématique de manière à maintenir l’optimisation de l’appareillage. Afin</span>
+<span class="b" style="left:128.00pt;top:399.11pt;font:normal 400 9.5pt/12.94pt 'Open Sans';color:#003D4C">de répondre rapidement et adéquatement aux besoins du patient, la réparation mineure</span>
+<span class="b" style="left:128.00pt;top:412.71pt;font:normal 400 9.5pt/12.94pt 'Open Sans';color:#003D4C">pouvant être effectuée chez l’audioprothésiste est à prioriser.</span>
+<span class="b" style="left:44.00pt;top:447.31pt;font:normal 400 9.5pt/12.94pt 'Open Sans';color:#003D4C">Si un patient se présente avec une solution alternative d’amplification auditive, l’audioprothésiste doit s’acquitter de</span>
+<span class="b" style="left:44.00pt;top:460.91pt;font:normal 400 9.5pt/12.94pt 'Open Sans';color:#003D4C">ses devoirs en matière d’information et de conseil.</span>
+<div class="b rond" style="left:44.00pt;top:483.60pt;width:22.00pt;height:22.00pt;background:#EAA04C"></div>
+<span class="b" style="left:52.05pt;top:486.30pt;font:normal 700 14pt/16.80pt 'Figtree';color:#003D4C">1</span>
+<span class="b" style="left:78.00pt;top:484.01pt;font:normal 400 9.5pt/12.94pt 'Open Sans';color:#003D4C">Dans le cas où une perte auditive est perçue par le patient, il est important de référer ce dernier en audiologie,</span>
+<span class="b" style="left:78.00pt;top:497.61pt;font:normal 400 9.5pt/12.94pt 'Open Sans';color:#003D4C">au médecin de famille ou à l’oto-rhino-laryngologiste. Cette approche permettra de déterminer le degré et</span>
+<span class="b" style="left:78.00pt;top:511.21pt;font:normal 400 9.5pt/12.94pt 'Open Sans';color:#003D4C">l’étiologie de la perte auditive. Le patient pourra également recevoir, le cas échéant, un diagnostic</span>
+<span class="b" style="left:78.00pt;top:524.81pt;font:normal 400 9.5pt/12.94pt 'Open Sans';color:#003D4C">d’hypoacousie ainsi qu’un plan de traitement et d’intervention adapté à sa situation.</span>
+<div class="b rond" style="left:44.00pt;top:547.00pt;width:22.00pt;height:22.00pt;background:#EAA04C"></div>
+<span class="b" style="left:50.95pt;top:549.70pt;font:normal 700 14pt/16.80pt 'Figtree';color:#003D4C">2</span>
+<span class="b" style="left:78.00pt;top:547.41pt;font:normal 400 9.5pt/12.94pt 'Open Sans';color:#003D4C">Dans le cas où l’évaluation complète de l’audition a été réalisée, pour mieux informer le patient sur</span>
+<span class="b" style="left:78.00pt;top:561.01pt;font:normal 400 9.5pt/12.94pt 'Open Sans';color:#003D4C">l’amplification actuelle, qu’elle soit acquise en vente libre ou auprès d’un professionnel de l’audition,</span>
+<span class="b" style="left:78.00pt;top:574.61pt;font:normal 400 9.5pt/12.94pt 'Open Sans';color:#003D4C">l’audioprothésiste peut réaliser des mesures objectives et de rendement prothétique.</span>
+<div class="b" style="left:44.00pt;top:597.80pt;width:524.00pt;height:89.00pt;background:#CBEEFD"></div>
+<div class="b" style="left:44.00pt;top:597.80pt;width:4.00pt;height:89.00pt;background:#003D4C"></div>
+<span class="b" style="left:60.00pt;top:607.71pt;font:normal 600 9.5pt/12.94pt 'Open Sans';color:#003D4C">Cette analyse de l’amplification actuelle n’engage pas l’audioprothésiste à effectuer des ajustements, des</span>
+<span class="b" style="left:60.00pt;top:621.31pt;font:normal 600 9.5pt/12.94pt 'Open Sans';color:#003D4C">services de réparation mineure, l’entretien ou un suivi prothétique. L’Ordre souligne que cette approche</span>
+<span class="b" style="left:60.00pt;top:634.91pt;font:normal 600 9.5pt/12.94pt 'Open Sans';color:#003D4C">d’ouverture et d’information du public doit être privilégiée en tout temps pour que chaque audioprothésiste</span>
+<span class="b" style="left:60.00pt;top:648.51pt;font:normal 600 9.5pt/12.94pt 'Open Sans';color:#003D4C">contribue à sensibiliser le public sur l’importance d’une correction auditive de qualité, adaptée aux besoins</span>
+<span class="b" style="left:60.00pt;top:662.11pt;font:normal 600 9.5pt/12.94pt 'Open Sans';color:#003D4C">de l’individu.</span>
+<span class="b" style="left:551.76pt;top:753.45pt;font:normal 400 8pt/10.89pt 'Open Sans';color:#003D4C">2 / 4</span>
+</section>
+<section class="feuille" aria-label="Page 3">
+<div class="b" style="left:0.00pt;top:0.00pt;width:612.00pt;height:34.00pt;background:#003D4C"></div>
+<span class="b" style="left:44.00pt;top:12.95pt;font:normal 600 9pt/10.80pt 'Figtree';color:#FFFFFF">Point d’information sur les solutions alternatives à la prothèse auditive</span>
+<span class="b" style="left:437.58pt;top:12.41pt;font:normal 400 8.5pt/11.58pt 'Open Sans';color:#FFFFFF">MISE À JOUR : 20 novembre 2026</span>
+<div class="b rond" style="left:44.00pt;top:57.00pt;width:22.00pt;height:22.00pt;background:#EAA04C"></div>
+<span class="b" style="left:51.11pt;top:59.70pt;font:normal 700 14pt/16.80pt 'Figtree';color:#003D4C">3</span>
+<span class="b" style="left:78.00pt;top:57.41pt;font:normal 400 9.5pt/12.94pt 'Open Sans';color:#003D4C">Pour diverses raisons, un dispositif d’amplification alternatif à la prothèse auditive, notamment un</span>
+<span class="b" style="left:78.00pt;top:71.01pt;font:normal 400 9.5pt/12.94pt 'Open Sans';color:#003D4C">amplificateur personnel, peut représenter un choix approprié pour le patient. Dans cette situation, l’Ordre</span>
+<span class="b" style="left:78.00pt;top:84.61pt;font:normal 400 9.5pt/12.94pt 'Open Sans';color:#003D4C">rappelle à ses membres que les obligations professionnelles suivantes doivent être respectées :</span>
+<div class="b rond" style="left:78.80pt;top:113.20pt;width:4.40pt;height:4.40pt;background:#00627A"></div>
+<span class="b" style="left:90.00pt;top:107.71pt;font:normal 400 9.5pt/12.94pt 'Open Sans';color:#003D4C">l’audioprothésiste doit respecter en tout temps les lois et règlements en vigueur;</span>
+<div class="b rond" style="left:78.80pt;top:129.80pt;width:4.40pt;height:4.40pt;background:#00627A"></div>
+<span class="b" style="left:90.00pt;top:124.31pt;font:normal 400 9.5pt/12.94pt 'Open Sans';color:#003D4C">l’audioprothésiste doit exercer un jugement professionnel et agir en collaboration avec le patient et son</span>
+<span class="b" style="left:90.00pt;top:137.91pt;font:normal 400 9.5pt/12.94pt 'Open Sans';color:#003D4C">entourage, le cas échéant;</span>
+<div class="b rond" style="left:78.80pt;top:160.00pt;width:4.40pt;height:4.40pt;background:#00627A"></div>
+<span class="b" style="left:90.00pt;top:154.51pt;font:normal 400 9.5pt/12.94pt 'Open Sans';color:#003D4C">l’audioprothésiste doit expliquer clairement au patient les avantages et les limites des diverses solutions</span>
+<span class="b" style="left:90.00pt;top:168.11pt;font:normal 400 9.5pt/12.94pt 'Open Sans';color:#003D4C">proposées, afin d’obtenir son consentement éclairé;</span>
+<div class="b rond" style="left:78.80pt;top:190.20pt;width:4.40pt;height:4.40pt;background:#00627A"></div>
+<span class="b" style="left:90.00pt;top:184.71pt;font:normal 400 9.5pt/12.94pt 'Open Sans';color:#003D4C">les exceptions aux normes de pratique doivent être justifiées dans la note de consultation de</span>
+<span class="b" style="left:90.00pt;top:198.31pt;font:normal 400 9.5pt/12.94pt 'Open Sans';color:#003D4C">l’audioprothésiste;</span>
+<div class="b rond" style="left:78.80pt;top:220.40pt;width:4.40pt;height:4.40pt;background:#00627A"></div>
+<span class="b" style="left:90.00pt;top:214.91pt;font:normal 400 9.5pt/12.94pt 'Open Sans';color:#003D4C">pour tout patient consulté, l’audioprothésiste doit consigner dans le dossier un résumé des</span>
+<span class="b" style="left:90.00pt;top:228.51pt;font:normal 400 9.5pt/12.94pt 'Open Sans';color:#003D4C">recommandations faites au patient et, le cas échéant, noter la décision du patient de refuser de suivre les</span>
+<span class="b" style="left:90.00pt;top:242.11pt;font:normal 400 9.5pt/12.94pt 'Open Sans';color:#003D4C">recommandations formulées.</span>
+<span class="b" style="left:44.00pt;top:262.71pt;font:normal 400 9.5pt/12.94pt 'Open Sans';color:#003D4C">L’Ordre reconnaît qu’en raison de la rapidité avec laquelle la technologie évolue et la diversité croissante des solutions</span>
+<span class="b" style="left:44.00pt;top:276.31pt;font:normal 400 9.5pt/12.94pt 'Open Sans';color:#003D4C">disponibles, certaines de ces conclusions pourraient devoir être révisées. Dans cette optique, l’Ordre encourage les</span>
+<span class="b" style="left:44.00pt;top:289.91pt;font:normal 400 9.5pt/12.94pt 'Open Sans';color:#003D4C">audioprothésistes à communiquer avec la conseillère à la pratique et au développement professionnel (voir</span>
+<span class="b" style="left:44.00pt;top:303.51pt;font:normal 400 9.5pt/12.94pt 'Open Sans';color:#003D4C">Renseignements) s’ils identifient des situations pouvant créer de l’ambiguïté ou compromettre la protection du public.</span>
+<div class="b" style="left:44.00pt;top:327.20pt;width:524.00pt;height:43.20pt;background:#EAA04C"></div>
+<span class="b" style="left:58.00pt;top:334.11pt;font:normal 700 9.5pt/12.94pt 'Open Sans';color:#003D4C">Informer, conseiller et exercer son jugement professionnel en tout temps, c’est se respecter et respecter</span>
+<span class="b" style="left:58.00pt;top:347.71pt;font:normal 700 9.5pt/12.94pt 'Open Sans';color:#003D4C">son patient.</span>
+
+<span class="b" style="left:44.00pt;top:390.10pt;font:normal 700 14pt/16.80pt 'Figtree';color:#003D4C">Questions spécifiques aux dispositifs d’écoute alternatifs</span>
+<div class="b" style="left:44.00pt;top:410.40pt;width:150.00pt;height:3.00pt;background:#00AEEF"></div>
+<span class="b" style="left:44.00pt;top:423.80pt;font:normal 700 8pt/9.60pt 'Figtree';color:#00627A;letter-spacing:1.4pt">QUESTION 1</span>
+<span class="b" style="left:44.00pt;top:437.16pt;font:normal 600 10.5pt/12.60pt 'Figtree';color:#003D4C">Est-ce qu’un audioprothésiste du Québec peut vendre des prothèses auditives en vente libre (sans</span>
+<span class="b" style="left:44.00pt;top:451.66pt;font:normal 600 10.5pt/12.60pt 'Figtree';color:#003D4C">prescription)?</span>
+<span class="b" style="left:44.00pt;top:468.31pt;font:normal 700 9.5pt/12.94pt 'Open Sans';color:#003D4C">Non.</span>
+<span class="b" style="left:69.03pt;top:468.31pt;font:normal 400 9.5pt/12.94pt 'Open Sans';color:#003D4C">Tous les actes réservés de l’audioprothésiste doivent être réalisés à la suite de l’obtention du certificat d’un</span>
+<span class="b" style="left:44.00pt;top:481.91pt;font:normal 400 9.5pt/12.94pt 'Open Sans';color:#003D4C">médecin, d’un orthophoniste ou d’un audiologiste attestant la nécessité d’une prothèse auditive. Seules les prothèses</span>
+<span class="b" style="left:44.00pt;top:495.51pt;font:normal 400 9.5pt/12.94pt 'Open Sans';color:#003D4C">auditives approuvées par Santé Canada peuvent être vendues par un ou une audioprothésiste du Québec. La liste des</span>
+<span class="b" style="left:44.00pt;top:509.11pt;font:normal 400 9.5pt/12.94pt 'Open Sans';color:#003D4C">homologations en vigueur est disponible</span>
+<a class="b" href="https://health-products.canada.ca/mdall-limh/index-fra.jsp" style="left:226.41pt;top:509.11pt;font:normal 400 9.5pt/12.94pt 'Open Sans';color:#003D4C">ici</a>
+<span class="b" style="left:235.75pt;top:509.11pt;font:normal 400 9.5pt/12.94pt 'Open Sans';color:#003D4C">. Toute exception aux normes de pratique doit être justifiée dans la note</span>
+<span class="b" style="left:44.00pt;top:522.71pt;font:normal 400 9.5pt/12.94pt 'Open Sans';color:#003D4C">de consultation de l’audioprothésiste.</span>
+<span class="b" style="left:44.00pt;top:548.80pt;font:normal 700 8pt/9.60pt 'Figtree';color:#00627A;letter-spacing:1.4pt">QUESTION 2</span>
+<span class="b" style="left:44.00pt;top:562.16pt;font:normal 600 10.5pt/12.60pt 'Figtree';color:#003D4C">En tant qu’audioprothésiste, suis-je obligé(e) d’offrir un service professionnel à un patient qui se présente</span>
+<span class="b" style="left:44.00pt;top:576.66pt;font:normal 600 10.5pt/12.60pt 'Figtree';color:#003D4C">avec des prothèses auditives en vente libre, ou tout autre dispositif d’écoute alternatif?</span>
+<span class="b" style="left:44.00pt;top:593.31pt;font:normal 700 9.5pt/12.94pt 'Open Sans';color:#003D4C">Non.</span>
+<span class="b" style="left:69.03pt;top:593.31pt;font:normal 400 9.5pt/12.94pt 'Open Sans';color:#003D4C">Toutefois, une approche d’ouverture et d’information du public doit être privilégiée pour que chaque</span>
+<span class="b" style="left:44.00pt;top:606.91pt;font:normal 400 9.5pt/12.94pt 'Open Sans';color:#003D4C">audioprothésiste contribue à sensibiliser le public sur l’importance d’une correction auditive de qualité, adaptée aux</span>
+<span class="b" style="left:44.00pt;top:620.51pt;font:normal 400 9.5pt/12.94pt 'Open Sans';color:#003D4C">besoins de l’individu (voir les points 1 et 2 ci-haut).</span>
+<span class="b" style="left:44.00pt;top:646.60pt;font:normal 700 8pt/9.60pt 'Figtree';color:#00627A;letter-spacing:1.4pt">QUESTION 3</span>
+<span class="b" style="left:44.00pt;top:659.96pt;font:normal 600 10.5pt/12.60pt 'Figtree';color:#003D4C">Est-ce qu’un audioprothésiste du Québec peut offrir des services d’ajustements pour des appareils auditifs en</span>
+<span class="b" style="left:44.00pt;top:674.46pt;font:normal 600 10.5pt/12.60pt 'Figtree';color:#003D4C">vente libre ou de toute autre solution alternative à la prothèse auditive?</span>
+<span class="b" style="left:44.00pt;top:691.11pt;font:normal 400 9.5pt/12.94pt 'Open Sans';color:#003D4C">Par les observations effectuées par le comité sur les prothèses en vente libre, la technologie actuelle rend difficile,</span>
+<span class="b" style="left:44.00pt;top:704.71pt;font:normal 400 9.5pt/12.94pt 'Open Sans';color:#003D4C">voire impossible, pour certains modèles de prothèses auditives en vente libre de respecter les normes de pratique de</span>
+<span class="b" style="left:44.00pt;top:718.31pt;font:normal 400 9.5pt/12.94pt 'Open Sans';color:#003D4C">l’audioprothèse au Québec (voir le point 3 ci-haut).</span>
+<span class="b" style="left:551.76pt;top:753.45pt;font:normal 400 8pt/10.89pt 'Open Sans';color:#003D4C">3 / 4</span>
+</section>
+<section class="feuille" aria-label="Page 4">
+<div class="b" style="left:0.00pt;top:0.00pt;width:612.00pt;height:34.00pt;background:#003D4C"></div>
+<span class="b" style="left:44.00pt;top:12.95pt;font:normal 600 9pt/10.80pt 'Figtree';color:#FFFFFF">Point d’information sur les solutions alternatives à la prothèse auditive</span>
+<span class="b" style="left:437.58pt;top:12.41pt;font:normal 400 8.5pt/11.58pt 'Open Sans';color:#FFFFFF">MISE À JOUR : 20 novembre 2026</span>
+<span class="b" style="left:44.00pt;top:58.40pt;font:normal 700 8pt/9.60pt 'Figtree';color:#00627A;letter-spacing:1.4pt">QUESTION 4</span>
+<span class="b" style="left:44.00pt;top:71.76pt;font:normal 600 10.5pt/12.60pt 'Figtree';color:#003D4C">Que faire si la correction auditive actuelle du patient, qu’il s’agisse d’une prothèse auditive en vente libre ou</span>
+<span class="b" style="left:44.00pt;top:86.26pt;font:normal 600 10.5pt/12.60pt 'Figtree';color:#003D4C">d’un amplificateur personnel, est jugée inadéquate par l’audioprothésiste?</span>
+<span class="b" style="left:44.00pt;top:102.91pt;font:normal 400 9.5pt/12.94pt 'Open Sans';color:#003D4C">Pour répondre à cette situation, l’Ordre rappelle certains des éléments du</span>
+<a class="b" href="https://www.legisquebec.gouv.qc.ca/fr/document/rc/A-33,%20r.%203" style="left:372.35pt;top:102.91pt;font:italic 400 9.5pt/12.94pt 'Open Sans';color:#003D4C">Code de déontologie des audioprothésistes</a>
+<span class="b" style="left:554.25pt;top:102.91pt;font:normal 400 9.5pt/12.94pt 'Open Sans';color:#003D4C">:</span>
+<div class="b" style="left:44.00pt;top:125.60pt;width:524.00pt;height:56.80pt;background:#E9E9E9"></div>
+<span class="b" style="left:56.00pt;top:137.51pt;font:normal 700 9.5pt/12.94pt 'Open Sans';color:#00627A">Art. 3.02.03</span>
+<span class="b" style="left:128.00pt;top:137.51pt;font:normal 400 9.5pt/12.94pt 'Open Sans';color:#003D4C">L’audioprothésiste doit exposer à son patient d’une façon complète et objective la nature et les</span>
+<span class="b" style="left:128.00pt;top:151.11pt;font:normal 400 9.5pt/12.94pt 'Open Sans';color:#003D4C">conséquences du problème qui, à son avis, ressort de l’ensemble des faits qui ont été portés à</span>
+<span class="b" style="left:128.00pt;top:164.71pt;font:normal 400 9.5pt/12.94pt 'Open Sans';color:#003D4C">sa connaissance.</span>
+<div class="b" style="left:44.00pt;top:182.40pt;width:524.00pt;height:35.20pt;background:#E9E9E9"></div>
+<span class="b" style="left:56.00pt;top:186.31pt;font:normal 700 9.5pt/12.94pt 'Open Sans';color:#00627A">Art. 3.02.04</span>
+<span class="b" style="left:128.00pt;top:186.31pt;font:normal 400 9.5pt/12.94pt 'Open Sans';color:#003D4C">L’audioprothésiste doit, dès que possible, informer son patient de la nature et des modalités du</span>
+<span class="b" style="left:128.00pt;top:199.91pt;font:normal 400 9.5pt/12.94pt 'Open Sans';color:#003D4C">service professionnel requis, et il doit obtenir son accord à ce sujet.</span>
+<div class="b" style="left:44.00pt;top:217.60pt;width:524.00pt;height:48.80pt;background:#E9E9E9"></div>
+<span class="b" style="left:56.00pt;top:221.51pt;font:normal 700 9.5pt/12.94pt 'Open Sans';color:#00627A">Art. 3.02.05</span>
+<span class="b" style="left:128.00pt;top:221.51pt;font:normal 400 9.5pt/12.94pt 'Open Sans';color:#003D4C">L’audioprothésiste doit s’abstenir d’exprimer des avis ou de donner des conseils contradictoires</span>
+<span class="b" style="left:128.00pt;top:235.11pt;font:normal 400 9.5pt/12.94pt 'Open Sans';color:#003D4C">ou incomplets. À cette fin, il doit chercher à avoir une connaissance complète des faits avant de</span>
+<span class="b" style="left:128.00pt;top:248.71pt;font:normal 400 9.5pt/12.94pt 'Open Sans';color:#003D4C">donner son avis ou un conseil.</span>
+<div class="b" style="left:44.00pt;top:266.40pt;width:524.00pt;height:53.80pt;background:#E9E9E9"></div>
+<span class="b" style="left:56.00pt;top:270.31pt;font:normal 700 9.5pt/12.94pt 'Open Sans';color:#00627A">Art. 3.03.02</span>
+<span class="b" style="left:128.00pt;top:270.31pt;font:normal 400 9.5pt/12.94pt 'Open Sans';color:#003D4C">En plus des avis et des conseils, l’audioprothésiste doit fournir à son patient les explications</span>
+<span class="b" style="left:128.00pt;top:283.91pt;font:normal 400 9.5pt/12.94pt 'Open Sans';color:#003D4C">nécessaires à la compréhension et à l’appréciation des services qu’il lui rend et, le cas échéant,</span>
+<span class="b" style="left:128.00pt;top:297.51pt;font:normal 400 9.5pt/12.94pt 'Open Sans';color:#003D4C">représenter fidèlement les propriétés de la prothèse auditive fournie.</span>
+<span class="b" style="left:44.00pt;top:332.11pt;font:normal 400 9.5pt/12.94pt 'Open Sans';color:#003D4C">Pour tout patient consulté, l’audioprothésiste doit consigner dans le dossier un résumé des recommandations faites</span>
+<span class="b" style="left:44.00pt;top:345.71pt;font:normal 400 9.5pt/12.94pt 'Open Sans';color:#003D4C">au patient et, le cas échéant, noter la décision du patient de refuser de suivre les recommandations formulées.</span>
+<svg class="b" aria-hidden="true" style="left:306.00pt;top:369.40pt" width="306.00pt" height="332.60pt" viewBox="0 0 306.00 332.60"><g fill="none" stroke="#CBEEFD" stroke-width="26"><circle cx="356.00" cy="492.60" r="120"/><circle cx="356.00" cy="492.60" r="180"/></g></svg>
+<div class="b" style="left:44.00pt;top:707.60pt;width:524.00pt;height:0.80pt;background:#003D4C"></div>
+<span class="b" style="left:44.00pt;top:719.79pt;font:italic 400 8.5pt/11.58pt 'Open Sans';color:#003D4C">Ce document présente l’interprétation de l’Ordre des</span>
+<span class="b" style="left:44.00pt;top:731.79pt;font:italic 400 8.5pt/11.58pt 'Open Sans';color:#003D4C">audioprothésistes du Québec. Il ne constitue pas un avis</span>
+<span class="b" style="left:44.00pt;top:743.79pt;font:italic 400 8.5pt/11.58pt 'Open Sans';color:#003D4C">juridique et ne prétend pas répondre à toutes les situations</span>
+<span class="b" style="left:44.00pt;top:755.79pt;font:italic 400 8.5pt/11.58pt 'Open Sans';color:#003D4C">particulières.</span>
+<span class="b" style="left:316.00pt;top:719.40pt;font:normal 700 8pt/9.60pt 'Figtree';color:#003D4C;letter-spacing:1.4pt">RENSEIGNEMENTS</span>
+<span class="b" style="left:316.00pt;top:732.79pt;font:normal 700 8.5pt/11.58pt 'Open Sans';color:#003D4C">Jacinthe Poitras, ap.</span>
+<span class="b" style="left:316.00pt;top:744.79pt;font:normal 400 8.5pt/11.58pt 'Open Sans';color:#003D4C">Conseillère à la pratique et au développement professionnel</span>
+<span class="b" style="left:316.00pt;top:756.79pt;font:normal 400 8.5pt/11.58pt 'Open Sans';color:#003D4C">514 640-5117, poste 205 - jpoitras@audioprothesistes.org</span>
+<span class="b" style="left:551.76pt;top:769.45pt;font:normal 400 8pt/10.89pt 'Open Sans';color:#003D4C">4 / 4</span>
+</section>
+</div>
+<div class="mobile">
+  <header class="bandeau">
+    <svg class="arcs" viewBox="0 0 612 176" preserveAspectRatio="xMaxYMax slice" aria-hidden="true">
+      <g fill="none" stroke="#00627A" stroke-width="30"><circle cx="672" cy="226" r="90"/><circle cx="672" cy="226" r="150"/><circle cx="672" cy="226" r="210"/></g>
+    </svg>
+    <img class="logo" src="logo-oaq-blanc.png" alt="Ordre des audioprothésistes du Québec">
+    <p class="mention etiquette">AVIS AUX MEMBRES</p>
+    <p class="date"><strong>MISE À JOUR : <time datetime="2026-11-20">20 novembre 2026</time></strong><br>Remplace la version d’octobre 2024</p>
+    <h1>Point d’information sur les solutions alternatives à la prothèse auditive</h1>
+    <span class="filet"></span>
+    <p class="public etiquette">AUX AUDIOPROTHÉSISTES</p>
+  </header>
+  <main>
+    <p class="intro">Dans un contexte de diversification des technologies, l’Ordre tient à rappeler certains aspects de la loi régissant les audioprothésistes et des normes de pratique de l’audioprothèse au Québec. En lien avec sa mission de protection du public, l’Ordre souhaite fournir des directives claires aux audioprothésistes concernant les diverses solutions d’amplification auditive disponibles sur le marché. Ces dispositifs peuvent être commercialisés au Canada et ailleurs dans le monde sous différents noms tels que :</p>
+    <ul><li>prothèses auditives en vente libre (OTC), aux États-Unis;</li><li>produits d’amplification personnels (PSAP);</li><li>assistants d’écoute;</li><li>écouteurs intelligents;</li><li>etc.</li></ul>
+    <section class="definitions">
+      <h2 class="etiquette">DE QUOI PARLE-T-ON?</h2>
+      <dl><dt>Prothèse auditive</dt><dd>« Tout instrument ou dispositif électronique servant à suppléer aux défauts de l’ouïe, ainsi que tout accessoire ou récepteur qui s’y rattache. » (<a href="https://www.legisquebec.gouv.qc.ca/fr/document/lc/A-33"><em>Loi sur les audioprothésistes</em></a>)</dd><dt>Prothèse auditive en vente libre (OTC)</dt><dd>Prothèse auditive offerte sans ordonnance aux États-Unis. Au Québec, elle demeure une prothèse auditive au sens de la <a href="https://www.legisquebec.gouv.qc.ca/fr/document/lc/A-33"><em>Loi sur les audioprothésistes</em></a>.</dd><dt>Amplificateur personnel (PSAP)</dt><dd>Dispositif destiné à une personne dont l’audition est normale, qui vise à amplifier les sons dans certains environnements, notamment à des fins récréatives. Il n’est pas destiné à compenser un trouble de l’audition.</dd></dl>
+    </section>
+    <h2 class="titre-section">La correction auditive en présence de perte auditive (défaut de l’ouïe)<span class="filet"></span></h2>
+    <p>Lorsque l’audioprothésiste réalise un acte réservé, à savoir la vente, la pose, l’ajustement ou le remplacement d’une prothèse auditive, il est assujetti aux règles et aux normes de pratique régissant l’exercice de sa profession. L’Ordre rappelle que l’audioprothésiste ne peut poser les actes décrits précédemment que sur certificat d’un médecin, d’un orthophoniste ou d’un audiologiste attestant la nécessité d’une prothèse auditive.</p>
+    <h2 class="titre-section">Les dispositifs d’écoute alternatifs avec fonction d’amplification sonore<span class="filet"></span></h2>
+    <p class="encadre">Afin d’éviter toute ambiguïté aux yeux du public, l’Ordre encourage les audioprothésistes à respecter les mêmes standards professionnels, peu importe le produit d’amplification auditive impliqué, même si ce produit peut également être proposé en vente libre, ou par toute autre personne sans aucune responsabilité professionnelle.</p>
+    <p>L’Ordre est conscient que certains produits en vente libre sont dotés de fonctions d’amplification sonore. Cette réalité est prise en compte, et l’Ordre travaille activement en collaboration avec ses partenaires pour apporter des éclaircissements, tant au niveau réglementaire qu’en termes d’information du public.</p><p>Il est essentiel de préciser que l’audioprothésiste ne peut jamais, même de façon occasionnelle, limiter sa responsabilité, ou se dissocier de son rôle et des obligations inhérentes à son titre professionnel. Par conséquent, avant d’offrir un service professionnel, l’audioprothésiste doit vérifier que le produit avec lequel il travaille lui permet de répondre à ses obligations légales et, sauf exception, aux <em>Normes de pratique de l’audioprothèse au Québec</em>, notamment en ce qui concerne les normes suivantes :</p>
+    <dl class="gris"><dt>Norme 6.1</dt><dd>(…) l’audioprothésiste doit fonder sa pratique sur des protocoles de mesures reconnues et s’assurer de la validité des résultats obtenus.</dd><dt>Norme 6.2</dt><dd>L’audioprothésiste doit s’assurer d’utiliser une évaluation valide pour l’appareillage.</dd><dt>Norme 12.1</dt><dd>L’audioprothésiste doit prendre les moyens nécessaires à sa disposition pour corriger adéquatement une problématique de manière à maintenir l’optimisation de l’appareillage. Afin de répondre rapidement et adéquatement aux besoins du patient, la réparation mineure pouvant être effectuée chez l’audioprothésiste est à prioriser.</dd></dl>
+    <p>Si un patient se présente avec une solution alternative d’amplification auditive, l’audioprothésiste doit s’acquitter de ses devoirs en matière d’information et de conseil.</p>
+    <div class="point"><span class="num" aria-hidden="true">1</span><p><span class="lecteur">1. </span>Dans le cas où une perte auditive est perçue par le patient, il est important de référer ce dernier en audiologie, au médecin de famille ou à l’oto-rhino-laryngologiste. Cette approche permettra de déterminer le degré et l’étiologie de la perte auditive. Le patient pourra également recevoir, le cas échéant, un diagnostic d’hypoacousie ainsi qu’un plan de traitement et d’intervention adapté à sa situation.</p></div>
+    <div class="point"><span class="num" aria-hidden="true">2</span><p><span class="lecteur">2. </span>Dans le cas où l’évaluation complète de l’audition a été réalisée, pour mieux informer le patient sur l’amplification actuelle, qu’elle soit acquise en vente libre ou auprès d’un professionnel de l’audition, l’audioprothésiste peut réaliser des mesures objectives et de rendement prothétique.</p></div>
+    <p class="encadre">Cette analyse de l’amplification actuelle n’engage pas l’audioprothésiste à effectuer des ajustements, des services de réparation mineure, l’entretien ou un suivi prothétique. L’Ordre souligne que cette approche d’ouverture et d’information du public doit être privilégiée en tout temps pour que chaque audioprothésiste contribue à sensibiliser le public sur l’importance d’une correction auditive de qualité, adaptée aux besoins de l’individu.</p>
+    <div class="point"><span class="num" aria-hidden="true">3</span><p><span class="lecteur">3. </span>Pour diverses raisons, un dispositif d’amplification alternatif à la prothèse auditive, notamment un amplificateur personnel, peut représenter un choix approprié pour le patient. Dans cette situation, l’Ordre rappelle à ses membres que les obligations professionnelles suivantes doivent être respectées :</p></div>
+    <ul><li>l’audioprothésiste doit respecter en tout temps les lois et règlements en vigueur;</li><li>l’audioprothésiste doit exercer un jugement professionnel et agir en collaboration avec le patient et son entourage, le cas échéant;</li><li>l’audioprothésiste doit expliquer clairement au patient les avantages et les limites des diverses solutions proposées, afin d’obtenir son consentement éclairé;</li><li>les exceptions aux normes de pratique doivent être justifiées dans la note de consultation de l’audioprothésiste;</li><li>pour tout patient consulté, l’audioprothésiste doit consigner dans le dossier un résumé des recommandations faites au patient et, le cas échéant, noter la décision du patient de refuser de suivre les recommandations formulées.</li></ul>
+    <p>L’Ordre reconnaît qu’en raison de la rapidité avec laquelle la technologie évolue et la diversité croissante des solutions disponibles, certaines de ces conclusions pourraient devoir être révisées. Dans cette optique, l’Ordre encourage les audioprothésistes à communiquer avec la conseillère à la pratique et au développement professionnel (voir Renseignements) s’ils identifient des situations pouvant créer de l’ambiguïté ou compromettre la protection du public.</p>
+    <p class="devise">Informer, conseiller et exercer son jugement professionnel en tout temps, c’est se respecter et respecter son patient.</p>
+    <h2 class="titre-section">Questions spécifiques aux dispositifs d’écoute alternatifs<span class="filet"></span></h2>
+    <div class="qr"><p class="etiquette num-q">Question 1</p><h3>Est-ce qu’un audioprothésiste du Québec peut vendre des prothèses auditives en vente libre (sans prescription)?</h3><p><strong>Non.</strong> Tous les actes réservés de l’audioprothésiste doivent être réalisés à la suite de l’obtention du certificat d’un médecin, d’un orthophoniste ou d’un audiologiste attestant la nécessité d’une prothèse auditive. Seules les prothèses auditives approuvées par Santé Canada peuvent être vendues par un ou une audioprothésiste du Québec. La liste des homologations en vigueur est disponible <a href="https://health-products.canada.ca/mdall-limh/index-fra.jsp">ici</a>. Toute exception aux normes de pratique doit être justifiée dans la note de consultation de l’audioprothésiste.</p></div><div class="qr"><p class="etiquette num-q">Question 2</p><h3>En tant qu’audioprothésiste, suis-je obligé(e) d’offrir un service professionnel à un patient qui se présente avec des prothèses auditives en vente libre, ou tout autre dispositif d’écoute alternatif?</h3><p><strong>Non.</strong> Toutefois, une approche d’ouverture et d’information du public doit être privilégiée pour que chaque audioprothésiste contribue à sensibiliser le public sur l’importance d’une correction auditive de qualité, adaptée aux besoins de l’individu (voir les points 1 et 2 ci-haut).</p></div><div class="qr"><p class="etiquette num-q">Question 3</p><h3>Est-ce qu’un audioprothésiste du Québec peut offrir des services d’ajustements pour des appareils auditifs en vente libre ou de toute autre solution alternative à la prothèse auditive?</h3><p>Par les observations effectuées par le comité sur les prothèses en vente libre, la technologie actuelle rend difficile, voire impossible, pour certains modèles de prothèses auditives en vente libre de respecter les normes de pratique de l’audioprothèse au Québec (voir le point 3 ci-haut).</p></div><div class="qr"><p class="etiquette num-q">Question 4</p><h3>Que faire si la correction auditive actuelle du patient, qu’il s’agisse d’une prothèse auditive en vente libre ou d’un amplificateur personnel, est jugée inadéquate par l’audioprothésiste?</h3><p>Pour répondre à cette situation, l’Ordre rappelle certains des éléments du <a href="https://www.legisquebec.gouv.qc.ca/fr/document/rc/A-33,%20r.%203"><em>Code de déontologie des audioprothésistes</em></a> :</p></div>
+    <dl class="gris"><dt>Art. 3.02.03</dt><dd>L’audioprothésiste doit exposer à son patient d’une façon complète et objective la nature et les conséquences du problème qui, à son avis, ressort de l’ensemble des faits qui ont été portés à sa connaissance.</dd><dt>Art. 3.02.04</dt><dd>L’audioprothésiste doit, dès que possible, informer son patient de la nature et des modalités du service professionnel requis, et il doit obtenir son accord à ce sujet.</dd><dt>Art. 3.02.05</dt><dd>L’audioprothésiste doit s’abstenir d’exprimer des avis ou de donner des conseils contradictoires ou incomplets. À cette fin, il doit chercher à avoir une connaissance complète des faits avant de donner son avis ou un conseil.</dd><dt>Art. 3.03.02</dt><dd>En plus des avis et des conseils, l’audioprothésiste doit fournir à son patient les explications nécessaires à la compréhension et à l’appréciation des services qu’il lui rend et, le cas échéant, représenter fidèlement les propriétés de la prothèse auditive fournie.</dd></dl>
+    <p>Pour tout patient consulté, l’audioprothésiste doit consigner dans le dossier un résumé des recommandations faites au patient et, le cas échéant, noter la décision du patient de refuser de suivre les recommandations formulées.</p>
+  </main>
+  <footer class="pied">
+    <p class="avertissement">Ce document présente l’interprétation de l’Ordre des audioprothésistes du Québec. Il ne constitue pas un avis juridique et ne prétend pas répondre à toutes les situations particulières.</p>
+    <div class="renseignements">
+      <h2 class="etiquette">Renseignements</h2>
+      <p><strong>Jacinthe Poitras, ap.</strong><br>Conseillère à la pratique et au développement professionnel<br>514 640-5117, poste 205 - jpoitras@audioprothesistes.org</p>
+    </div>
+  </footer>
+</div>
+<p class="outils"><a href="OAQ-Avis-membres-Solutions-alternatives-prothese-auditive-2026-11-20.pdf" download>Télécharger le PDF (format lettre)</a></p>
+</body>
+</html>
